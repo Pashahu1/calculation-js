@@ -4,15 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Module2</title>
+  <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
   <header class="header">
-    <div class="button-plus"></div>
-    <div class="button-minus"></div>
-    <div class="button-division"></div>
-    <div class="button-multiply"></div>
+    <div class="header__content">
+      <input type="number" class="input">
+      <div class="calculator">
+        <button class="button-plus button">+</button>
+        <button class="button-minus button">-</button>
+        <button class="button-division button">/</button>
+        <button class="button-multiply button">x</button>
+      </div>
+    </div>
+    <div class="results">
+      <p class="outputResult">0</p>
+      <p class="outputText"></p>
+    </div>
   </header>
 
+  <script src="./script/body.js"></script>
   <script src="./script/main.js"></script>
 </body>
 </html>
